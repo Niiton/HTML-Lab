@@ -1,0 +1,30 @@
+html { font-family: Arial, Helvetica, sans-serif;}
+
+a { text-decoration: none;}
+
+
+.description {padding-bottom: 1.5rem;}
+
+.description, p {line-height: 1.5rem;}
+
+#personalPhoto {width: 300px;}
+
+.skills {padding-bottom: 1.5rem;}
+
+.skills, li {line-height: 1.5rem;}
+
+
+.skillsList2, span {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 80%;
+}
+
+.table, table, th, td{
+
+    border: 0.2rem solid black;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    text-align: center;
+
+}
