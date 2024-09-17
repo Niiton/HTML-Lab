@@ -1,0 +1,195 @@
+$color1: #17153B;
+$color2: #2E236C;
+$color3: #433D8B;
+$color4: #C8ACD6;
+$color5: #8967B3;
+
+html { 
+    
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+html, body {
+
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+header {
+    
+    background-color: $color1;
+    box-sizing: border-box;
+    color: $color4;
+    text-shadow: 6px 5px 6px $color3;
+
+}
+
+.nameBox {
+    width: 100%;
+    border-bottom: 4px $color2 solid;
+    align-items: center;
+}
+
+.subNameBox {
+    align-items: center;
+}
+
+
+.degrees {
+
+    margin-bottom: 0;
+
+}
+
+.subText {
+
+    margin-top: 0;
+
+}
+
+#JaxU {
+
+    margin-bottom: 0;
+
+}
+
+.subSubText {
+
+    margin-top: 0;
+
+}
+
+a { text-decoration: none;}
+
+.sectionHead {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+
+
+}
+
+#aboutMe {
+
+    justify-self: center;
+
+}
+
+
+.description {
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    background-color: $color2;
+    color: $color4;
+    border-top: 4px $color3 solid;
+    
+}
+
+.description, p {line-height: 1.5rem;}
+
+.photoContainer {
+
+    align-items: center;
+
+}
+
+#personalPhoto {
+    width: 300px;
+
+}
+
+.skills {
+    background-color: $color4;
+    color: $color1;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    border-top: 4px $color5 solid;
+}
+
+.skills, li {line-height: 1.5rem;}
+
+
+.skillsList2, span {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 80%;
+}
+
+.experience {
+
+    background-color: $color5;
+    border-top: 4px $color3 solid;
+    padding-left: 1rem;
+    padding-bottom: 1.5rem;
+
+
+}
+
+.tableContainer {
+width: 100%;
+
+}
+
+.table, table, th, td{
+    align-self: center;
+    border: 0.2rem solid black;
+    border-collapse: collapse;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+.myLinks {
+
+    background-color: $color3;
+    color: $color4;
+    border-top: 4px $color4 solid;
+    
+
+}
+
+.linksHead {
+
+    width: 100%;
+
+}
+
+
+.logos {
+
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+.logos img {
+    
+    height: 6rem;
+    width: 6rem;
+}
+
+.logo {
+
+    padding-left: 6rem ;
+    padding-right: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 3.5rem;
+}
+
+.logo p {
+
+    text-align: center;
+    margin-top: 0;
+    font-weight: bold;
+
+}

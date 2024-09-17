@@ -12,15 +12,18 @@
 
 
 
-<header style="padding-bottom: 1.5rem;">
-
-    <h1 style = "padding-bottom: 1.5rem;">Ethan Gonzalez Jamison</h1>
-    <h2>Game Design Major at <a href="https://www.ju.edu/" target="_blank">Jacksonville University</a></h2>
-    <h3>Associate's Degree in Computer Science</h3>
-    <h4>Santa Fe College</h4>
-
-    <h3>Game Design Degree Anticipated in 2026</h3>
-    <h4>Jacksonville University</h4>
+<header class = "flex">
+    <div class = "nameBox flex">
+        <h1>Ethan Gonzalez Jamison</h1>
+    </div>
+    <div class = "subNameBox flex">
+        <h2>Game Design Major at <a href="https://www.ju.edu/" target="_blank">Jacksonville University</a></h2>
+        <h3 class="degrees">Bachelor's Degree in Game Design</h3>
+        <h4 class="subText" id="JaxU">Jacksonville University</h4>
+        <h5 class="subSubText">Anticipated in 2026</h5>
+        <h3 class="degrees">Associate's Degree in Computer Science</h3>
+        <h4 class="subText">Santa Fe College</h4>
+    </div>
 
 </header>
 
@@ -29,8 +32,10 @@
     
     <div class="description">
 
-        <h3>About Me</h3>
-        <img src="assets/EGJ Photo.jpg" id="personalPhoto">
+        <h3 class = "sectionHead flex" id = "aboutMe">About Me</h3>
+        <div class = "photoContainer flex">
+            <img src="assets/EGJ Photo.jpg" id="personalPhoto" alt="Photo of Ethan Gonzalez Jamison.">
+        </div>
         <p>A reputable young man enthuasiastic about Game Design and the future of the industry.</p>
         <p>Passionate about both playing and making games for the world to enjoy, thinking of how to sustainably shape the future of the industry, and taking care of his family and loved ones.</p>
         <p>Thrilled by solving problems and coming up with scalable solutions, and heavily interested in psychology in gamers.</p>
@@ -40,9 +45,9 @@
 
     <div class="skills">
 
-        <div id="skillsHeader">
+        <div id="skillsHeader flex">
 
-            <h3>Skills</h3>
+            <h3 class="sectionHead">Skills</h3>
 
         </div>
 
@@ -79,37 +84,83 @@
 
     <div class="experience">
 
-        <h3>Experience</h3>
+        <h3 class="sectionHead" id="experience">Experience</h3>
+        <div class="tableContainer flex">
+            <table>
 
-        <table>
+                <tr>
+                    <th>Job</th>
+                    <th>Postiton</th>
+                    <th>Years</th>
+                </tr>
 
-            <tr>
-                <th>Job</th>
-                <th>Postiton</th>
-                <th>Years</th>
-            </tr>
+                <tr>
+                    <td>Cataluna</td>
+                    <td>Captain Server</td>
+                    <td>2023 - Present</td>
+                </tr>
 
-            <tr>
-                <td>Cataluna</td>
-                <td>Captain Server</td>
-                <td>2023 - Present</td>
-            </tr>
+                <tr>
+                    <td>Hangar One Bistro</td>
+                    <td>Captain Server</td>
+                    <td>2021 - 2023</td>
+                </tr>
 
-            <tr>
-                <td>Hangar One Bistro</td>
-                <td>Captain Server</td>
-                <td>2021 - 2023</td>
-            </tr>
-
-            <tr>
-                <td>Llama Restaurant</td>
-                <td>Server</td>
-                <td>2018 - 2021</td>
-            </tr>
+                <tr>
+                    <td>Llama Restaurant</td>
+                    <td>Server</td>
+                    <td>2018 - 2021</td>
+                </tr>
 
 
-        </table>
+            </table>
+        </div>
+    </div>
 
+    <div class="myLinks flex">
+
+        <div class="linksHead">
+
+            <h3 class="sectionHead">My Links</h3>
+        </div>
+
+
+        <div class="logos flex">
+
+            <div class="logo">
+                <a href="https://github.com/Niiton" target="_blank">
+
+                    <img src="assets/githubLogo.png">
+
+                </a>
+                
+                <p>Github</p>
+
+            </div>
+
+            <div class="logo">
+                <a href="https://www.linkedin.com/in/ethan-gonzalez-jamison-3ba512185/" target="_blank">
+
+                <img src="assets/linkedInLogo.png">
+
+                </a>
+                                
+                <p>LinkedIn</p>
+
+
+            </div>
+
+            <div class="logo">
+                <a href="https://www.instagram.com/niitonn/" target="_blank">
+
+                    <img src="assets/instagramLogo.png">
+
+                </a>
+    
+                <p>Instagram</p>
+
+            </div>
+        </div>
     </div>
 
 </body>

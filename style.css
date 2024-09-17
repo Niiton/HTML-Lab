@@ -1,30 +1,152 @@
-html { font-family: Arial, Helvetica, sans-serif;}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-a { text-decoration: none;}
+html, body {
+  margin: 0;
+  box-sizing: border-box;
+}
 
+.flex {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
 
-.description {padding-bottom: 1.5rem;}
+header {
+  background-color: #17153B;
+  box-sizing: border-box;
+  color: #C8ACD6;
+  text-shadow: 6px 5px 6px #433D8B;
+}
 
-.description, p {line-height: 1.5rem;}
+.nameBox {
+  width: 100%;
+  border-bottom: 4px #2E236C solid;
+  align-items: center;
+}
 
-#personalPhoto {width: 300px;}
+.subNameBox {
+  align-items: center;
+}
 
-.skills {padding-bottom: 1.5rem;}
+.degrees {
+  margin-bottom: 0;
+}
 
-.skills, li {line-height: 1.5rem;}
+.subText {
+  margin-top: 0;
+}
 
+#JaxU {
+  margin-bottom: 0;
+}
+
+.subSubText {
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sectionHead {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+#aboutMe {
+  justify-self: center;
+}
+
+.description {
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+  background-color: #2E236C;
+  color: #C8ACD6;
+  border-top: 4px #433D8B solid;
+}
+
+.description, p {
+  line-height: 1.5rem;
+}
+
+.photoContainer {
+  align-items: center;
+}
+
+#personalPhoto {
+  width: 300px;
+}
+
+.skills {
+  background-color: #C8ACD6;
+  color: #17153B;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+  border-top: 4px #8967B3 solid;
+}
+
+.skills, li {
+  line-height: 1.5rem;
+}
 
 .skillsList2, span {
-    font-style: italic;
-    font-weight: bold;
-    font-size: 80%;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 80%;
 }
 
-.table, table, th, td{
-
-    border: 0.2rem solid black;
-    border-collapse: collapse;
-    padding: 0.5rem;
-    text-align: center;
-
+.experience {
+  background-color: #8967B3;
+  border-top: 4px #433D8B solid;
+  padding-left: 1rem;
+  padding-bottom: 1.5rem;
 }
+
+.tableContainer {
+  width: 100%;
+}
+
+.table, table, th, td {
+  align-self: center;
+  border: 0.2rem solid black;
+  border-collapse: collapse;
+  padding: 1rem;
+  text-align: center;
+}
+
+.myLinks {
+  background-color: #433D8B;
+  color: #C8ACD6;
+  border-top: 4px #C8ACD6 solid;
+}
+
+.linksHead {
+  width: 100%;
+}
+
+.logos {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logos img {
+  height: 6rem;
+  width: 6rem;
+}
+
+.logo {
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 2rem;
+  padding-bottom: 3.5rem;
+}
+
+.logo p {
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
