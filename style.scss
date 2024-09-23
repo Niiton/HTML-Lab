@@ -183,7 +183,7 @@ width: 100%;
     padding-left: 6rem ;
     padding-right: 6rem;
     padding-top: 2rem;
-    padding-bottom: 3.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .logo p {
@@ -191,5 +191,46 @@ width: 100%;
     text-align: center;
     margin-top: 0;
     font-weight: bold;
+
+}
+
+.contactMe {
+
+    background-color: $color4;
+    border-top: 4px $color5 solid;
+
+}
+
+.contactForm {
+
+    align-items: center;
+    padding-bottom: 3rem;
+
+}
+
+.formContent {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.formContent textarea {
+
+    margin-top: 1rem;
+
+}
+
+.formContent, .formContent label, .formContent button {
+
+    text-align: center;
+
+}
+
+.formContent button {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: $color2;
+    color: $color4;
 
 }
